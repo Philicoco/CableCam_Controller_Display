@@ -1,5 +1,5 @@
 This is the Github-Repo for our Diploma-pheses
-Teamleader: Philiosch Tomohomo
+Teamleader: Philios Tomoiaga
 Nicolas Gangl-Prattes
 Jonas Nemas
 
