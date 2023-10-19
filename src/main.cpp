@@ -22,7 +22,7 @@ void setup()
   ui_init();
   lv_timer_handler();
   Serial.print("init dsp ready");
-  _ui_screen_change(ui_EStopScreen, LV_SCR_LOAD_ANIM_FADE_ON, 50, 0); 
+  _ui_screen_change(ui_MainScreen, LV_SCR_LOAD_ANIM_FADE_ON, 50, 0); 
   lv_timer_handler();
   
 }
