@@ -1,0 +1,13 @@
+SET(SOURCES screens/ui_MainScreen.c
+    screens/ui_EStopScreen.c
+    screens/ui_SettingsScreen.c
+    screens/ui_ContinueScreen.c
+    screens/ui_InfoScreen.c
+    screens/ui_MoreScreen.c
+    screens/ui_ProfileScreen.c
+    screens/ui_BluethoothScreen.c
+    ui.c
+    components/ui_comp_hook.c
+    ui_helpers.c)
+
+add_library(ui ${SOURCES})

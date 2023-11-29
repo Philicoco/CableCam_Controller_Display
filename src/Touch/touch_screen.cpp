@@ -283,7 +283,7 @@ void touch_init(){
     // put your setup code here, to run once:
     pinMode(BAT_VOLT_PIN, ANALOG);
 
-    Wire.begin(IIC_SDA_PIN, IIC_SCL_PIN, (uint32_t)800000);
+    //Wire.begin(IIC_SDA_PIN, IIC_SCL_PIN, (uint32_t)800000);
     Serial.begin(115200);
     xl.begin();
     uint8_t pin = (1 << PWR_EN_PIN) | (1 << LCD_CS_PIN) | (1 << TP_RES_PIN) | (1 << LCD_SDA_PIN) | (1 << LCD_CLK_PIN) |
